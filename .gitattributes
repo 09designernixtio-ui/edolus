@@ -1,2 +1,13 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Never normalize binary assets (protects checkouts on Windows)
+*.glb   binary
+*.basis binary
+*.wasm  binary
+*.ogg   binary
+*.mp4   binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.webp  binary
